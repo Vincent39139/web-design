@@ -1,5 +1,9 @@
 .bg {
-    background-image: url("../img/KEN2.jpg")
+    background-image: linear-gradient(red , yellow, green);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+
 }
 .wallet {
     height: 100%;
@@ -39,6 +43,7 @@
     display: inline-block;
     margin-left: auto;
     margin-right: 235px;
+    margin-top: 800px;
 }
 .coin3 {
     height: 800px;
@@ -46,4 +51,7 @@
     display: inline-block;
     margin-left: auto;
     margin-top: 800px;
+}
+.coin-margin {
+    margin: 500px auto;
 }
