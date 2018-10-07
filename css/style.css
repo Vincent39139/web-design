@@ -1,0 +1,18 @@
+.wallet {
+    height: 100%;
+    width: 100%;
+}
+.coin {
+    height: 1000px;
+    width: 1000px;
+    display: block;
+    margin: 0 auto ;
+}
+.lunch1 {
+    height:1000px;
+    width: 1500px;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 539px;
+}
