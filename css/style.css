@@ -1,3 +1,6 @@
+.bg {
+    background-image: url("../img/KEN2.jpg")
+}
 .wallet {
     height: 100%;
     width: 100%;
@@ -8,11 +11,39 @@
     display: block;
     margin: 0 auto ;
 }
-.lunch1 {
+.lunch2 {
     height:1000px;
     width: 1500px;
     display: block;
     margin-left: auto;
     margin-right: 0;
     margin-top: 539px;
+}
+.lunch1 {
+    height:1200px;
+    width: 1800px;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 200px;
+}
+.in-row {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+}
+
+.coin2 {
+    height: 1000px;
+    width: 1000px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 235px;
+}
+.coin3 {
+    height: 800px;
+    width: 800px;
+    display: inline-block;
+    margin-left: auto;
+    margin-top: 800px;
 }
