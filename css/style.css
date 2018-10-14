@@ -9,30 +9,35 @@
     padding: 0;
 }
 .wallet {
-    height: 100%;
+    height: 1125px;
     width: 100%;
 }
 .coin {
-    height: 1000px;
-    width: 1000px;
+    height: auto;
+    width: 500px;
     display: block;
     margin: 0 auto ;
 }
+.coin:hover{
+    height: auto;
+    width: 700px;
+    transition: all 0.6s;
+}
 .lunch2 {
-    height:1000px;
-    width: 1500px;
+    height:auto;
+    width: 1000px;
     display: block;
     margin-left: auto;
     margin-right: 0;
-    margin-top: 539px;
+    margin-top: 200px;
 }
 .lunch1 {
-    height:1200px;
-    width: 1800px;
+    height:auto;
+    width: 1000px;
     display: block;
     margin-left: 0;
     margin-right: auto;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .in-row {
     display: inline-flex;
@@ -41,19 +46,19 @@
 }
 
 .coin2 {
-    height: 1000px;
-    width: 1000px;
+    height: 500px;
+    width: 500px;
     display: inline-block;
     margin-left: auto;
     margin-right: 235px;
-    margin-top: 800px;
+    margin-top: 600px;
 }
 .coin3 {
-    height: 800px;
-    width: 800px;
+    height: 500px;
+    width: 500px;
     display: inline-block;
     margin-left: auto;
-    margin-top: 800px;
+    margin-top: 600px;
 }
 .coin-margin {
     margin: 500px auto;
