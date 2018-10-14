@@ -15,14 +15,15 @@
     .wallet {
         height: 1125px;
         width: 100%;
+        position: relative;
+        z-index: 100;
     }
     .coin-top-wrapper {
         position: absolute;
         top: 0;
-        left: 700px;
+        width: 100%;
+        text-align: center;
         height: 1700px;
-        z-index: -1;
-        
     }
         .coin-top{
             height: auto;
@@ -30,16 +31,15 @@
             position: sticky;
             top: 0;
             padding-top: 300px;
-
+            z-index: 50;
         }
-        .coin:hover{
-            height: auto;
+        .coin-top:hover  {
             width: 700px;
             transition: all 0.6s;
         }
 
 .in-row-1 {
-    height: 1000px;
+    height: 1500px;
     display: block;
 }
     .coin-wrapper-1 {
@@ -51,33 +51,117 @@
         height: 500px;
         width: 500px;
     }
-
-.lunch2 {
-    height:auto;
-    width: 1000px;
+    .shop-1 {
+        height:auto;
+        width: 1000px;
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+        position: relative;
+        z-index: 500;
+    }
+    .shop-1:hover {
+        height: auto;
+        width: 800px;
+        transition: all 0.6s;
+    }
+.in-row-2 {
+    height: 1500px;
     display: block;
-    margin-left: auto;
-    margin-right: 0;
-    margin-top: 200px;
+
 }
+    .coin-wrapper-2 {
+        padding:100px 0;
+        position: sticky; 
+        top: 0;
+        text-align: right;
+    }
+    .coin-2 {
+        height: 500px;
+        width: 500px;
+    }
+    .shop-2 {
+        height:auto;
+        width: 1000px;
+        display: block;
+        margin-left: 0;
+        margin-right:auto;
+        margin-top: 100px;
+        position: relative;
+        z-index: 500;
+    }
+    .shop-2:hover {
+        height: auto;
+        width:1300px;
+        transition: all 0.6s;
+    }
+
+.in-row-3 {
+    height: 1500px;
+    display: block;
+
+}
+    .coin-wrapper-3 {
+        padding:100px 0;
+        position: sticky; 
+        top: 0;
+    }
+    .coin-3 {
+        height: 500px;
+        width: 500px;
+    }
+    .shop-3 {
+        height:auto;
+        width: 1000px;
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+        margin-top: 100px;
+        position: relative;
+        z-index: 500;
+    }
+    .shop-3:hover {
+        height: auto;
+        width: 1300px;
+        transition: all 0.6s;
+    }
+.in-row-4 {
+    height: 1500px;
+    display: block;
+
+}
+
+    .coin-wrapper-4 {
+        padding:100px 0;
+        position: sticky; 
+        top: 0;
+        text-align: right;
+    }
+    .coin-4 {
+        height: 500px;
+        width: 500px;
+    }
+    .shop-4 {
+        height:auto;
+        width: 1000px;
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+        position: relative;
+        z-index: 500;
+    }
+    .shop-4:hover{
+        height: auto;
+        width: 800px;
+        transition: all 0.6s;
+    }
+
 .lunch2:hover {
     height: auto;
     width: 800px;
     transition: all 0.6s;
 }
-.lunch1 {
-    height:auto;
-    width: 1000px;
-    display: block;
-    margin-left: 0;
-    margin-right: auto;
-    margin-top: 100px;
-}
-.lunch1:hover {
-    height: auto;
-    width: 1300px;
-    transition: all 0.6s;
-}
+
 .in-row {
     display: inline-flex;
     width: 100%;
