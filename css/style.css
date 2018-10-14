@@ -39,7 +39,7 @@
         }
 
 .in-row-1 {
-    height: 1500px;
+    height: 1700px;
     display: block;
 }
     .coin-wrapper-1 {
@@ -66,7 +66,7 @@
         transition: all 0.6s;
     }
 .in-row-2 {
-    height: 1500px;
+    height: 1700px;
     display: block;
 
 }
@@ -97,7 +97,7 @@
     }
 
 .in-row-3 {
-    height: 1500px;
+    height: 1700px;
     display: block;
 
 }
@@ -126,7 +126,7 @@
         transition: all 0.6s;
     }
 .in-row-4 {
-    height: 1500px;
+    height: 1700px;
     display: block;
 
 }
@@ -190,7 +190,8 @@
     height: auto;
     width: 500px;
     display: block;
-    margin: 0 auto ;
+    margin: 300px auto ;
+
 }
 .coin:hover{
     height: auto;
