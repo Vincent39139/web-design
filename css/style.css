@@ -38,18 +38,20 @@
             transition: all 0.6s;
         }
 
-
-.coin {
-    height: auto;
-    width: 500px;
+.in-row-1 {
+    height: 1000px;
     display: block;
-    margin: 0 auto ;
 }
-.coin:hover{
-    height: auto;
-    width: 700px;
-    transition: all 0.6s;
-}
+    .coin-wrapper-1 {
+        padding:100px 0;
+        position: sticky; 
+        top: 0;
+    }
+    .coin-1 {
+        height: 500px;
+        width: 500px;
+    }
+
 .lunch2 {
     height:auto;
     width: 1000px;
@@ -99,4 +101,15 @@
 }
 .coin-margin {
     margin: 500px auto;
+}
+.coin {
+    height: auto;
+    width: 500px;
+    display: block;
+    margin: 0 auto ;
+}
+.coin:hover{
+    height: auto;
+    width: 700px;
+    transition: all 0.6s;
 }
