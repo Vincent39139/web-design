@@ -47,6 +47,7 @@
 .in-row-1 {
     height: 1700px;
     display: block;
+    position: relative;
 }
     .coin-wrapper-1 {
         padding:100px 0;
@@ -76,6 +77,7 @@
 .in-row-2 {
     height: 1700px;
     display: block;
+    position: relative;
 
 }
     .coin-wrapper-2 {
@@ -112,6 +114,7 @@
 .in-row-3{
     height: 1700px;
     display: block;
+    position: relative;
 
 }
     .coin-wrapper-3 {
@@ -146,6 +149,7 @@
 .in-row-4 {
     height: 1700px;
     display: block;
+    position: relative;
 
 }
 
@@ -218,3 +222,50 @@
     width: 700px;
     transition: all 0.6s;
 }
+.coin-element1 {
+    margin-left: auto;
+    margin-right: 300px;
+    right: 0;
+    display: block;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 150px;
+}   
+.coin-element1-bottom {
+    top: unset;
+    bottom: 150px;
+}
+.coin-element1-bottom {
+        top: unset;
+        bottom: 150px;
+    }
+    .coin-element2 {
+        margin-left: 300px;
+        margin-right: auto;
+        display: block;
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        top: 150px;
+    }   
+    .coin-element3 {
+        margin-left: auto;
+        margin-right: 300px;
+        display: block;
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        top: 150px;
+        right: 0;
+    }   
+    
+.coin-element4 {
+    margin-left: 300px;
+    margin-right: auto;
+    display: block;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 150px;
+}   
